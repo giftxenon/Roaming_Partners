@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'MTNBrighterSans';
+    src: url('../fonts/._MTNBrighterSans-Bold.woff2') format('woff2'),
+         url('../fonts/._MTNBrighterSans-Bold.woff') format('woff'),
+         url('../fonts/._MTNBrighterSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MTNBrighterSans';
+    src: url('../fonts/._MTNBrighterSans-BoldItalic.woff2') format('woff2'),
+         url('../fonts/._MTNBrighterSans-BoldItalic.woff') format('woff'),
+         url('../fonts/._MTNBrighterSans-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  @font-face {
+    font-family: 'MTNBrighterSans';
+    src: url('../fonts/._MTNBrighterSans-ExtraBold.woff2') format('woff2'),
+         url('../fonts/._MTNBrighterSans-ExtraBold.woff') format('woff'),
+         url('../fonts/._MTNBrighterSans-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'MTNBrighterSans';
+    src: url('../fonts/._MTNBrighterSans-ExtraBoldItalic.woff2') format('woff2'),
+         url('../fonts/._MTNBrighterSans-ExtraBoldItalic.woff') format('woff'),
+         url('../fonts/._MTNBrighterSans-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+/* Global styling */
+body {
+  font-family: 'MTNBrighterSans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFFF;
+  color: #000000;
+}
+
+/* Styling for headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'MTNBrighterSans', sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Button Styling */
+button {
+  font-family: 'MTNBrighterSans', sans-serif;
+  font-weight: bold;
+  text-transform: none;
+}
+
+/* Table Styling */
+.MuiTableHead-root th {
+    background-color: rgba(0, 0, 0, 0.8); /* MTN Yellow with 10% opacity */
+    color: #ffffff; /* white text */
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+.MuiTableBody-root tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.MuiTableBody-root tr:hover {
+  background-color: #f9f9f9; /* Subtle hover effect */
+}
+
+/* Button Styles */
+.add-country-btn {
+  background-color: #FFCB05;
+  color: #000000;
+  font-weight: bold;
+  width: 168px;
+  height: 35px;
+  font-size: 0.875rem;
+  border-radius: 5px;
+}
+
+.add-country-btn:hover {
+  background-color: #f7c000;
+}
+
+.MuiIconButton-root {
+  color: #000000;
+}
